@@ -188,6 +188,16 @@ width: 100%;
     filter: grayscale(100%);
 }
 
+/* footer */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding:20px;
+    
+}
+.fott{
+    text-align: center;
+}
 /* responsive */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams, .features{
@@ -212,8 +222,12 @@ width: 100%;
         margin-left: 20px;
     }
     
-
+    
 }
+
+    
+
+
 /* medium size responsive */
 @media screen and (min-width:576px) and (max-width:992px){
     .teams, .features{
@@ -231,4 +245,6 @@ width: 100%;
         margin-top: 20px;
         margin-left: 20px;
     }
+    
+
 }
